@@ -29,3 +29,6 @@ fieldset{
     border: 0;
   
 }
+fieldset:not(:last-of-type){
+  border-bottom:3px solid #3b3b4f;
+}
