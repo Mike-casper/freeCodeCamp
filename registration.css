@@ -14,12 +14,16 @@ h1, p {
   text-align:center;
   margin:1em auto;
 }
+a{
+  color:#dfdfe2;
+}
 
 form{
   margin: 0 auto;
   max-width: 500px;
   min-width: 300px;
   width:60vw;
+  padding:0 0 2em 0;
 }
 fieldset{
     padding-top:2rem;
@@ -50,9 +54,13 @@ input, textarea{
 input[type="submit"]{
 display: block;
 width: 60%;
-margin: 0 auto;
+margin: 1em auto;
 height: 2em;
 font-size: 1.1rem;
 background-color:#3b3b4f;
 border-color:white;
+min-width:300;
 }
+input[type="file"]{
+  padding:1px 2px;
+  }
