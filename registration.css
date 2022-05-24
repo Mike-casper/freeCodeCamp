@@ -10,3 +10,22 @@ label{
   margin:0.5rem 0;
 
 }
+h1, p {
+  text-align:center;
+  margin:1em auto;
+}
+
+form{
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width:60vw;
+}
+fieldset{
+    padding-top:2rem;
+    padding-bottom:2rem;
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+  
+}
