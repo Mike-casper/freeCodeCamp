@@ -1,7 +1,7 @@
 function testLogicalAnd(val) {
   // Only change code below this line
 
-  if (val) {// if (val >=25 && val<=50)
+  if (val) {
     if (val) {
       return "Yes";
     }
