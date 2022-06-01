@@ -2,7 +2,7 @@ function testLogicalOr(val) {
   // Only change code below this line
 
   if (val) {
-    return "Outside";//
+    return "Outside";// if (val<10 || val>20) {
   }
 
   if (val) {
